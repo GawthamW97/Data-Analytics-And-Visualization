@@ -6,3 +6,4 @@ packages to install
 -python-dotenv
 -dagster papermill jupyter
 -psycopg2
+-kaleido
