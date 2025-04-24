@@ -168,8 +168,8 @@ def load_data_to_mySQL_asset(context: AssetExecutionContext):
 def load_data_to_mongoDB02_asset(context: AssetExecutionContext,load_data_to_postgreSQL02_asset:str):
     """Read the data from excel file and upload it to Mongo DB"""
     
-    input_path = ROOT/"Data-Analytics-And-Visualization/notebooks/dataset_03/load_data_to_mongoDB.ipynb"
-    output_path = OUTPUT / "output_load_data_to_mongoDB.ipynb"
+    input_path = ROOT/"Data-Analytics-And-Visualization/notebooks/dataset_03/connection-NOsql.ipynb"
+    output_path = OUTPUT / "output_connection-NOsql.ipynb"
 
     context.log.info(f"Executing {input_path}")
 
